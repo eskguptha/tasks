@@ -1,0 +1,19 @@
+# Required csv files
+# FoodType.csv
+# FoodCategory.csv
+# RestaurantType.csv
+# FoodItemIdNames.csv
+
+# Compile program
+cd /path/to/src/
+
+javac -d . FoodType.java
+javac -d . FoodCategory.java
+javac -d . RestaurantType.java
+javac -d . FoodItemIdNames.java
+javac -d . FoodRecommend.java
+
+# Run program
+java restaurants.FoodRecommend
+
+# Every time you ask for recommendation, the recommended food for the given options gets appended to FoodRecommend.csv file.
